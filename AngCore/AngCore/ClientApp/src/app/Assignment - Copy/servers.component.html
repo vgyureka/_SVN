@@ -1,0 +1,14 @@
+<!--<app-server></app-server>
+<app-server></app-server>-->
+<!--<div app-server>attriute sselector</div>
+<div app-server>attriute sselector</div>-->
+
+<div class="app-server">class comp</div>
+
+<div class="app-server">class comp</div>
+<!--EVENT IN () BRACKETS-->
+<button class="btn btn-primary" (click)="OnCreateServer()">Add Server</button>
+<p>{{serverCreationStatus}}</p>
+<!--TWO WAY DATA BIND-->
+<input type="text" class="form-control" [(ngModel)]="serverName" />
+{{serverName}}

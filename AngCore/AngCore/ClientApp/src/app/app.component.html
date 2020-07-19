@@ -1,0 +1,11 @@
+<body>
+  <!--two way-->
+  <input type="text" name="name" value="" [(ngModel)] ="name"/>
+  <p>
+    {{name}}
+    FormsModule need to e imported in [app.module.js] for ngModel to  working
+  </p>
+  <hr />
+  <!--nested components-->
+   <app-servers></app-servers>
+</body>
